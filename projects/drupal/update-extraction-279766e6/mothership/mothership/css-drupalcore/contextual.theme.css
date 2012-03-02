@@ -1,0 +1,90 @@
+
+/**
+ * Contextual links regions.
+ */
+.contextual-links-region-active {
+  outline: 1px dashed #d6d6d6;
+  outline-offset: 1px;
+}
+
+/**
+ * Contextual links.
+ */
+a.contextual-links-trigger{
+  width:20px;
+  height:20px;
+    background-color: rgba(0,0,0,0.1);
+    background-color: #eee;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+		 -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+					box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+  background: transparent url(../images/gear.png) no-repeat 0px 0px;
+  display: hidden;
+  margin: 0;
+  outline: none;
+  text-indent: 34px; /* LTR */
+  overflow: hidden;
+}
+
+a.contextual-links-trigger:hover,
+.contextual-links-active a.contextual-links-trigger {
+  background-position: 0px -22px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;  
+}
+.contextual-links-region .contextual-links-active .contextual-links-trigger {
+  background-position: 0px -22px;
+  border-bottom: none;
+  position: relative;
+  z-index: 1;
+  -moz-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+
+.contextual-links-region .contextual-links-wrapper .contextual-links {
+  border: 1px solid #d6d6d6;
+  display: none;
+  margin: 0;
+  padding: 0.25em 0;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 20px;
+  white-space: nowrap;
+  -moz-border-radius: 2px 0 2px 2px; /* LTR */
+  border-radius: 2px 0 2px 2px; /* LTR */
+		 -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+					box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  
+}
+
+
+.contextual-links-region .contextual-links-wrapper .contextual-links li {
+  display:block;
+  float:none;
+  height:auto;
+  line-height: normal;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contextual-links-region .contextual-links-wrapper .contextual-links li a {
+  background:#fff;
+  color: #333;
+  display: block;
+  margin: 0.25em 0;
+  padding: 0.25em 1em 0.25em 0.5em;
+  font-size:11px;
+  font-weight:normal;
+  text-decoration: none;
+}
+.contextual-links-region .contextual-links-wrapper .contextual-links li a:hover {
+  background-color:#eee;
+}
