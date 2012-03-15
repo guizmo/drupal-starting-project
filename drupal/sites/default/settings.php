@@ -205,10 +205,10 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal',
-      'username' => 'root',
-      'password' => 'admin',
-      'host' => 'localhost',
+      'database' => 'mydatabase',
+      'username' => 'myusername',
+      'password' => 'mypassword',
+      'host' => 'myhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
