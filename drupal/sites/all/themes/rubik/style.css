@@ -167,6 +167,7 @@ table th {
   .action-links a {
     background-color:#7bc;
     text-shadow:#38a 0px 1px 0px;
+    display: block;
     }
 
   .add-or-remove-shortcuts a {
