@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1106, 705}</string>
+		<string>{1680, 970}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/guillaumebartolini/projects/drupal-starting-project/drupal-starting-project.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{2847, 1018}</string>
+		<string>{2560, 1099}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/guillaumebartolini/projects/drupal-starting-project/drupal/sites/all/themes/rubik</string>
+			<string>file://localhost/Users/guillaumebartolini/projects/drupal-starting-project/drupal</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
